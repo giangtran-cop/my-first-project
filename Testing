@@ -1,0 +1,60 @@
+
+TESTING DOCUMENT
+
+Project: my-first-project
+Module: User Management
+Tester: Nguyen Van A
+Environment: STAGING
+
+1. TEST OBJECTIVE
+Verify that the main functions work correctly.
+
+2. TEST CASES
+
+TC001 - Verify Login
+Pre-condition: User is on the Login page.
+Steps:
+- Enter valid username.
+- Enter valid password.
+- Click Login.
+
+Expected Result:
+User logs in successfully.
+
+TC002 - Verify Sign Up
+Pre-condition: User is on the Sign Up page.
+Steps:
+- Enter valid registration information.
+- Click Sign Up.
+
+Expected Result:
+New account is created successfully.
+
+TC003 - Verify Add Member
+Pre-condition: Admin is logged in.
+Steps:
+- Open Member Management.
+- Click Add Member.
+- Enter valid member information.
+- Click Save.
+
+Expected Result:
+New member is added successfully.
+
+TC004 - Verify Required Fields
+Steps:
+- Leave required fields empty.
+- Click Submit.
+
+Expected Result:
+Validation messages are displayed.
+
+3. TEST SUMMARY
+Total Test Cases: 4
+Passed: 0
+Failed: 0
+Blocked: 0
+Not Run: 4
+
+4. TEST CONCLUSION
+Testing has not been executed yet.
