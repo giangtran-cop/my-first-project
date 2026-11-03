@@ -1,0 +1,32 @@
+
+SIGN UP FEATURE
+
+Project: my-first-project
+
+Description:
+This file is created to practice the Sign Up feature.
+
+Registration Information:
+- Full Name: Nguyen Van A
+- Email: testuser@gmail.com
+- Username: testuser
+- Password: Test@123
+- Confirm Password: Test@123
+
+Test Scenarios:
+1. Register with valid information.
+2. Register with an existing email.
+3. Register with an existing username.
+4. Submit with empty Full Name.
+5. Submit with invalid email format.
+6. Submit with empty Password.
+7. Submit with mismatched Confirm Password.
+8. Submit with password shorter than 8 characters.
+
+Expected Result:
+- Valid information: Registration successful.
+- Existing email: Display email already exists.
+- Existing username: Display username already exists.
+- Invalid email: Display email validation message.
+- Password mismatch: Display password mismatch message.
+- Empty required fields: Display validation messages.
