@@ -1,0 +1,25 @@
+
+LOGIN FEATURE
+
+Project: my-first-project
+
+Description:
+This file is created to practice GitHub Pull Requests.
+
+Login Information:
+- Username: testuser
+- Password: Test@123
+- Login button: Sign In
+- Logout button: Sign Out
+
+Test Scenarios:
+1. Verify login with valid username and password.
+2. Verify login with invalid username.
+3. Verify login with invalid password.
+4. Verify login with empty username.
+5. Verify login with empty password.
+
+Expected Result:
+- Valid credentials: Login successful.
+- Invalid credentials: Display error message.
+- Empty fields: Display validation message.
