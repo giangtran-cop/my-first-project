@@ -1,0 +1,35 @@
+
+ADD MEMBER FEATURE
+
+Project: my-first-project
+
+Description:
+This file is created to practice the Add Member feature.
+
+Member Information:
+- Full Name: Nguyen Van B
+- Email: member01@gmail.com
+- Username: member01
+- Role: Member
+- Status: Active
+
+Test Scenarios:
+1. Add a member with valid information.
+2. Add a member with an existing email.
+3. Add a member with an existing username.
+4. Add a member with an invalid email format.
+5. Add a member without Full Name.
+6. Add a member without Email.
+7. Add a member without selecting a Role.
+8. Add multiple members.
+9. Cancel the Add Member operation.
+10. Verify the member list after adding successfully.
+
+Expected Result:
+- Valid information: Member added successfully.
+- Existing email: Display email already exists.
+- Existing username: Display username already exists.
+- Invalid email: Display email validation message.
+- Empty required fields: Display validation messages.
+- Successful addition: New member appears in the member list.
+- Cancel operation: No new member is created.
